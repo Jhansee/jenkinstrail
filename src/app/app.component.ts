@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+float ngh;
     this.userService.populate();
   }
 }
