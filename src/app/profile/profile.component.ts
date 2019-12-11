@@ -17,7 +17,7 @@ export class ProfileComponent implements OnInit {
   profile: Profile;
   currentUser: User;
   isUser: boolean;
-
+isdisabled : boolean;
   ngOnInit() {
     this.route.data.pipe(
       concatMap((data: { profile: Profile }) => {
