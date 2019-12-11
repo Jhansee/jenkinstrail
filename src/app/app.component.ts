@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit()
   {
-    String:hasLifecycleHook;
+    //String:hasLifecycleHook;
     this.userService.populate();
   }
 }
