@@ -8,11 +8,12 @@ import { hasLifecycleHook } from '@angular/compiler/src/lifecycle_reflector';
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
+  
   constructor (
     private userService: UserService
   ) {}
   
-  
+
   ngOnInit()
   {
     //String:hasLifecycleHook;
