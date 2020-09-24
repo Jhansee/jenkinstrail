@@ -11,7 +11,8 @@ export class AppComponent implements OnInit {
   constructor (
     private userService: UserService
   ) {}
-
+  
+  
   ngOnInit()
   {
     //String:hasLifecycleHook;
